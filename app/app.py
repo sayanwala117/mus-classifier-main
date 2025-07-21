@@ -17,7 +17,7 @@ except ImportError as e:
     print(f"Warning: Could not import predict_image: {e}")
     MODEL_IMPORT_SUCCESS = False
 
-MODEL_PATH = "../models/mustang_classifier_model_v0_5.h5"
+MODEL_PATH = "./models/mustang_classifier_model_v0_5.h5"
 UPLOAD_FOLDER = "../uploads"
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif', 'bmp'}
 
